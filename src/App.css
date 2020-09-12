@@ -1,31 +1,74 @@
-.App {
+Skip
+  to
+  content
+  Search
+  or
+  jump
+  to…
+  Pull
+  requests
+  Issues
+  Marketplace
+  Explore
+  @oim5nu
+  emeeks
+  /
+  d3_in_action_2
+  24
+  385
+  242
+  Code
+  Issues
+  8
+  Pull
+  requests
+  Actions
+  Projects
+  Wiki
+  Security
+  Insights
+  d3_in_action_2/chapter9/reactd3/src/App.css
+  @curran
+  curran
+  Indation
+  &
+  formatting
+  for
+  Chapter
+  9
+  Latest
+  commit
+  65d58d2
+  on
+  22
+  Feb
+  2017
+  History
+  1
+  contributor
+  44
+  lines
+  (36 sloc)
+  550
+  Bytes
+  .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  animation: App-logo-spin infinite 20s linear;
+  height: 0px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #222;
+  height: 40px;
+  padding: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-intro {
+  font-size: large;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +78,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+rect.overlay {
+  opacity: 0;
+}
+
+rect.selection {
+  fill: #fe9922;
+  opacity: 0.5;
+}
+
+rect.handle {
+  fill: #fe9922;
+  opacity: 0.25;
+}
+
+path.countries {
+  stroke-width: 1;
+  stroke: #75739f;
+  fill: #5eafc6;
 }
